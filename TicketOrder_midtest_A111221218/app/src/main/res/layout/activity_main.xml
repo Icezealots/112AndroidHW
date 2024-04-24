@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#ACD6FF"
+    android:background="#E8D098F"
     tools:context=".MainActivity">
 
     <RadioGroup
