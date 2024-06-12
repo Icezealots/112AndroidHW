@@ -72,29 +72,28 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // 設置按鈕的點擊監聽器
-        findViewById(R.id.btn_main_course1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_main_course1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 當按鈕被點擊時，更新相應的 TextView
                 tvMainCourse.setText("主餐: 牛肉漢堡");
             }
         });
 
-        findViewById(R.id.btn_main_course2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_main_course2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvMainCourse.setText("主餐: 豬肉漢堡");
             }
         });
 
-        findViewById(R.id.btn_main_course3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_main_course3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvMainCourse.setText("主餐: 炸雞漢堡");
             }
         });
 
-        findViewById(R.id.btn_main_course4).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_main_course4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvMainCourse.setText("主餐: 炸魚漢堡");
@@ -102,47 +101,50 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // 設置附餐按鈕的點擊監聽器
-        findViewById(R.id.btn_side_dish1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_side_dish1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvSideDish.setText("附餐: 薯條");
             }
         });
-        findViewById(R.id.btn_side_dish2).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.tv_side_dish2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvSideDish.setText("附餐: 沙拉");
             }
         });
-        findViewById(R.id.btn_side_dish3).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.tv_side_dish3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvSideDish.setText("附餐: 玉米濃湯");
             }
         });
-        findViewById(R.id.btn_side_dish4).setOnClickListener(new View.OnClickListener() {
+
+        findViewById(R.id.tv_side_dish4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvSideDish.setText("附餐: 蘋果派");
             }
         });
 
-        // 設置飲料按鈕的點擊監聽器
-        findViewById(R.id.btn_drink1).setOnClickListener(new View.OnClickListener() {
+// 設置飲料TextView的點擊監聽器
+        findViewById(R.id.tv_drink1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvDrink.setText("飲料: 可樂");
             }
         });
 
-        findViewById(R.id.btn_drink2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_drink2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvDrink.setText("飲料: 雪碧");
             }
         });
 
-        findViewById(R.id.btn_drink3).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_drink3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvDrink.setText("飲料: 冰紅茶");
@@ -212,47 +214,47 @@ public class MainActivity extends AppCompatActivity {
 
     // 顯示主餐按鈕
     private void showMainCourseButtons() {
-        findViewById(R.id.btn_main_course1).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_main_course2).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_main_course3).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_main_course4).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_main_course1).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_main_course2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_main_course3).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_main_course4).setVisibility(View.VISIBLE);
     }
 
     // 隱藏主餐按鈕
     private void hideMainCourseButtons() {
-        findViewById(R.id.btn_main_course1).setVisibility(View.GONE);
-        findViewById(R.id.btn_main_course2).setVisibility(View.GONE);
-        findViewById(R.id.btn_main_course3).setVisibility(View.GONE);
-        findViewById(R.id.btn_main_course4).setVisibility(View.GONE);
+        findViewById(R.id.tv_main_course1).setVisibility(View.GONE);
+        findViewById(R.id.tv_main_course2).setVisibility(View.GONE);
+        findViewById(R.id.tv_main_course3).setVisibility(View.GONE);
+        findViewById(R.id.tv_main_course4).setVisibility(View.GONE);
     }
 
     // 顯示附餐按鈕
     private void showSideDishButtons() {
-        findViewById(R.id.btn_side_dish1).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_side_dish2).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_side_dish3).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_side_dish4).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_side_dish1).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_side_dish2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_side_dish3).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_side_dish4).setVisibility(View.VISIBLE);
     }
 
     // 隱藏附餐按鈕
     private void hideSideDishButtons() {
-        findViewById(R.id.btn_side_dish1).setVisibility(View.GONE);
-        findViewById(R.id.btn_side_dish2).setVisibility(View.GONE);
-        findViewById(R.id.btn_side_dish3).setVisibility(View.GONE);
-        findViewById(R.id.btn_side_dish4).setVisibility(View.GONE);
+        findViewById(R.id.tv_side_dish1).setVisibility(View.GONE);
+        findViewById(R.id.tv_side_dish2).setVisibility(View.GONE);
+        findViewById(R.id.tv_side_dish3).setVisibility(View.GONE);
+        findViewById(R.id.tv_side_dish4).setVisibility(View.GONE);
     }
 
     // 顯示飲料按鈕
     private void showDrinkButtons() {
-        findViewById(R.id.btn_drink1).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_drink2).setVisibility(View.VISIBLE);
-        findViewById(R.id.btn_drink3).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_drink1).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_drink2).setVisibility(View.VISIBLE);
+        findViewById(R.id.tv_drink3).setVisibility(View.VISIBLE);
     }
 
     // 隱藏飲料按鈕
     private void hideDrinkButtons() {
-        findViewById(R.id.btn_drink1).setVisibility(View.GONE);
-        findViewById(R.id.btn_drink2).setVisibility(View.GONE);
-        findViewById(R.id.btn_drink3).setVisibility(View.GONE);
+        findViewById(R.id.tv_drink1).setVisibility(View.GONE);
+        findViewById(R.id.tv_drink2).setVisibility(View.GONE);
+        findViewById(R.id.tv_drink3).setVisibility(View.GONE);
     }
 }

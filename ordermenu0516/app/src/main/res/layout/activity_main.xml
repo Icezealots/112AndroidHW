@@ -27,8 +27,8 @@
 
 
     <!-- 主餐按鈕 -->
-    <Button
-        android:id="@+id/btn_main_course1"
+    <TextView
+        android:id="@+id/tv_main_course1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="牛肉漢堡"
@@ -37,106 +37,108 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_main_course2"
+    <TextView
+        android:id="@+id/tv_main_course2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="豬肉漢堡"
         android:visibility="gone"
-        android:layout_below="@id/btn_main_course1"
+        android:layout_below="@id/tv_main_course1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_main_course3"
+    <TextView
+        android:id="@+id/tv_main_course3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="炸雞漢堡"
         android:visibility="gone"
-        android:layout_below="@id/btn_main_course2"
+        android:layout_below="@id/tv_main_course2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_main_course4"
+    <TextView
+        android:id="@+id/tv_main_course4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="炸魚漢堡"
         android:visibility="gone"
-        android:layout_below="@id/btn_main_course3"
+        android:layout_below="@id/tv_main_course3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
     <!-- 附餐按鈕 -->
-    <Button
-        android:id="@+id/btn_side_dish1"
+    <TextView
+        android:id="@+id/tv_side_dish1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="薯條"
         android:visibility="gone"
-        android:layout_below="@id/btn_main_course4"
+        android:layout_below="@id/tv_main_course4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_side_dish2"
+    <TextView
+        android:id="@+id/tv_side_dish2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="沙拉"
         android:visibility="gone"
-        android:layout_below="@id/btn_side_dish1"
+        android:layout_below="@id/tv_side_dish1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_side_dish3"
+    <TextView
+        android:id="@+id/tv_side_dish3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="玉米濃湯"
         android:visibility="gone"
-        android:layout_below="@id/btn_side_dish2"
+        android:layout_below="@id/tv_side_dish2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_side_dish4"
+    <TextView
+        android:id="@+id/tv_side_dish4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="蘋果派"
         android:visibility="gone"
-        android:layout_below="@id/btn_side_dish3"
+        android:layout_below="@id/tv_side_dish3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
-    <!-- 飲料按鈕 -->
-    <Button
-        android:id="@+id/btn_drink1"
+
+    <!-- 飲料TextView -->
+    <TextView
+        android:id="@+id/tv_drink1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="可樂"
         android:visibility="gone"
-        android:layout_below="@id/btn_side_dish4"
-        android:layout_alignStart="@id/btn_main_course1"
+        android:layout_below="@id/tv_side_dish4"
+        android:layout_alignStart="@id/tv_main_course1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
-    <Button
-        android:id="@+id/btn_drink2"
+
+    <TextView
+        android:id="@+id/tv_drink2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="雪碧"
         android:visibility="gone"
-        android:layout_below="@id/btn_drink1"
-        android:layout_alignStart="@id/btn_drink1"
+        android:layout_below="@id/tv_drink1"
+        android:layout_alignStart="@id/tv_drink1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_drink3"
+    <TextView
+        android:id="@+id/tv_drink3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="冰紅茶"
         android:visibility="gone"
-        android:layout_below="@id/btn_drink2"
-        android:layout_alignStart="@id/btn_drink2"
+        android:layout_below="@id/tv_drink2"
+        android:layout_alignStart="@id/tv_drink2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
